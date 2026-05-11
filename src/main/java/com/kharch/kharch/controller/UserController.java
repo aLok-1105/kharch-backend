@@ -61,7 +61,7 @@ public class UserController {
 
     @GetMapping("health")
     public ResponseEntity<String> healthCheck(){
-        return ResponseEntity.status(HttpStatus.OK).body("Application is running");
+        return ResponseEntity.status(HttpStatus.OK).body("I am healthy");
     }
 
     @PutMapping("userUpdate")
